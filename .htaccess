@@ -2,3 +2,4 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond $1 !^(assets|magento|wordpress|src)
 RewriteRule ^(.*)$ /index.php/$1 [L]
+#test
